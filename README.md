@@ -1,5 +1,8 @@
 # EX01 Developing a Simple Webserver
-## Date:
+## Date: 13.03.2024
+## Name: Srikaran M
+## Roll no: 212223040206
+## Dept: CSE
 
 ## AIM:
 To develop a simple webserver to serve html pages.
@@ -22,15 +25,43 @@ Testing the webserver.
 
 ## PROGRAM:
 ```
-from http.server import HTTPServer, BaseHTTPRequestHandler
+ffrom http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
-<!DOCTYPE html>
 <html>
-<head>
-<title>My webserver</title>
-</head>
+<title>software companies</title>
 <body>
-<h1>Welcome<h1>
+<table border="3" cellspacing="2" cellpadding="6">
+<caption>Top 5 Revenue Generating Software Companies</caption>
+<tr>
+	<th>S.no</th>
+	<th>Company</th>
+	<th>Revenue</th>
+</tr>
+<tr>
+	<td>1</td>
+	<td>Microsoft</td>
+	<td>65 Billion</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>Oracle</td>
+	<td>29.6 Billion</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>IBM</td>
+	<td>29.1 Billion</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>SAP</td>
+	<td>6.4 Billion</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>Symantec</td>
+	<td>5.6 Billion</td>
+</tr>
 </body>
 </html>
 """
@@ -48,6 +79,10 @@ httpd.serve_forever()
 ```
 
 ## OUTPUT:
+![output](https://github.com/Srikaran077/simplewebserver/assets/151993143/ddc7f846-be2c-451c-836b-466fb64fa6ab)
+
+
+![Table](https://github.com/Srikaran077/simplewebserver/assets/151993143/2c02582a-8e40-4bb2-bdbb-2ffc79854207)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
