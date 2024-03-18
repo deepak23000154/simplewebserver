@@ -1,7 +1,7 @@
 # EX01 Developing a Simple Webserver
 ## Date: 13.03.2024
-## Name: Srikaran M
-## Roll no: 212223040206
+## Name: deepak
+## Roll no: 212223040031
 ## Dept: CSE
 
 ## AIM:
